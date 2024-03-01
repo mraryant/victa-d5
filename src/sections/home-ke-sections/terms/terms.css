@@ -1,0 +1,36 @@
+.term-main{
+    background-image: linear-gradient(90deg, rgba(6, 6, 58,1)  14%, rgba(6, 6, 58, 0.789) 51%, rgba(6, 6, 58,1) 96%), url('/public/bgc.png');
+    background-repeat:round;
+    background-size: 5%;
+
+    
+}
+
+.terms{
+    height: 100%;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.termtitle{
+    color: white;
+}
+.terms p{
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+}
+.termspan{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+@media (max-width: 768px){
+    .terms{
+        padding-top: 50%;
+    }
+}

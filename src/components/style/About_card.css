@@ -1,0 +1,31 @@
+#About-card-main{
+    width: 45vmax;
+    display: flex;
+    /* text-align: left; */
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5vmax;
+
+}
+#About-card-main>h4{
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
+    font-weight: 500;
+     width: 90%;
+    
+      
+}
+#About-card-main>P{
+    color: rgb(180, 180, 180);
+}
+#p2{
+    color: var(--orange);
+}
+
+@media (max-width:900px) {
+    #About-card-main {
+            width: 80vmin;
+            margin: 10px;
+        }
+}

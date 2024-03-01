@@ -1,0 +1,171 @@
+#toko-main{
+    display: flex;
+    /* padding: 20px 7vmin 20px 7vmin; */
+    /* color: white; */
+    /* background-color: #030027; */
+    /* width: 70vw; */
+    /* flex-direction: column; */
+    /* background: linear-gradient(43deg,#000428 0,#000428 31.03%,#133c6d 100%); */
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+#util-1:hover{
+    transform: scale(1.1);
+}
+#util-1{
+    display: flex;
+    border: 2px solid skyblue;
+    background: #F7F4F1;
+    border-radius: 10px;
+    padding: 14px;
+    gap: 40px;
+    transition: all ease-in-out 0.4s;
+}
+#util-1>span{
+    font-weight: 700;
+}
+#util-left{
+    width:13vmax;
+}
+#toko-main-container{
+    background: rgba(0, 61, 246, 0.18);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.3px);
+-webkit-backdrop-filter: blur(4.3px);
+    padding: 50px 0px;
+}
+#tokenomics{
+    display: flex;
+    
+    flex-direction: column;
+    gap: -10px;
+    align-items: center;
+}
+#toko-h{
+    color: rgb(247, 185, 27);
+    font-weight: 700;
+    /* font-size: 30px; */
+    font-size: 40px;
+    margin-top: 50px !important;
+    margin: 20px;
+   /* background-color: #030027; */
+    text-align: center;
+}
+#toko-p{
+    text-align: center;
+    color: rgb(168, 164, 164);
+    line-height: normal;
+    width: 60%;
+}
+#toko-left {
+    height: 100%;
+    width: 45vmax;
+}
+#toko-left>img {
+    height: 100%;
+    width: 100%;
+    transition: all ease-in-out 0.3s;
+}
+#toko-left>img:hover {
+    transform: scale(1.1);
+}
+#toko-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#toko-right>h5{
+     text-align: center;
+     color: white;
+     /* color: var(--light); */
+}
+.toko-card{
+    width: 474.89px;
+        height: 55.88px;
+         
+        color: black;
+        padding: 10px;
+        border-radius: 6px;
+        /* border-left: 9px solid rgb(129, 228, 120)!important; */
+            border: 2px solid #189AD6;
+            background: #cfcfce;
+            transition: all ease-in-out 0.3s;
+}
+
+.toko-card:hover{
+    transform: scale(1.1);
+}
+
+.toko-card>h5{
+    color:black;
+}
+.toko-card>h5>span{
+    color: rgb(86, 125, 28);
+    font-weight: 900;
+    -webkit-text-stroke: 1px rgb(136, 131, 131);
+}
+.toko-card>p{
+    color: gray;
+}
+
+
+@media (max-width:1145px)
+{
+    #toko-p{
+        text-align: center;
+        color: rgb(168, 164, 164);
+        line-height: normal;
+        width: 90%;
+    }
+    #toko-main {
+             
+            flex-direction: column;
+             gap: 40px;
+        }
+                .toko-card {
+                    width: 70vmin;
+                    height: 87.88px;
+        
+                   
+                }
+                #toko-left{
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                #toko-left>img{
+                    height: 80%;
+                    width: 80%;
+                   
+                }
+}
+
+#contract {
+    z-index: 2;
+    margin-top: 3vmax;
+    margin-bottom: 6vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contract>h3 {
+    font-size: 2vmax;
+}
+
+#contract-button {
+    display: flex;
+    gap: 20px;
+}
+@media (max-width:450px)
+{
+    #contract-button {
+            display: flex;
+            flex-direction: column;
+            /* gap: 20px; */
+        }
+}

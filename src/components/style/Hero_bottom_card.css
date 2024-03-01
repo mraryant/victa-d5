@@ -1,0 +1,62 @@
+ 
+
+ #hb-pera-div{
+  height: fit-content;
+  width: 30vmax;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #151828;
+  transition: all ease-in-out 0.4s;
+ }
+ #hb-pera-div:hover {
+  transform: scale(1.05);
+  background-color: #01267d;
+ }
+#hb-pera{
+  color: white;
+  
+}
+#hb-pera>p{
+  color: rgb(150, 149, 149) !important;
+  font-weight: 400;
+  
+}
+#hb-pera>h4{
+  color: white;
+ font-size: 1.5vmax;
+  font-weight: 400;
+}
+#hb-pera>p{
+  font-weight: 300;
+  /* color: rgb(181, 177, 177); */
+  
+ font-size: 1.1vmax;
+}
+#hb-img{
+  height: 6vmax;
+  width: 5vmax;
+}
+
+ 
+
+  @media (max-width:900px) {
+    
+  }
+  @media (max-width:836px) {
+      #hb-pera-div {
+          height: fit-content;
+          width: 60vmin;
+          padding: 20px;
+          background-color: #151828;
+        }
+                #hb-pera>h4 {
+                  
+                  font-size: 2vmax;
+                 
+                }
+        
+                #hb-pera>p {
+                  
+                  font-size: 1.8vmax;
+                }
+  }
