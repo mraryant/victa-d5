@@ -14,7 +14,7 @@ const Blog = () => {
         <>
 
 
-            <section className=" p-lg-5 ">
+            <section id="blogs" className=" p-lg-5 ">
                 <div className="container">
                     <div className="text-center mb-5">
                         <h5 className="text-primary h6">Our Blog</h5>

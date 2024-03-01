@@ -158,9 +158,10 @@ const BlogPage = () => {
         <>
 
             <Link to="/" onClick={scrollToTop} className="text-decoration-none  text-gray  ">
-            <div style={{ fontSize: "20px", display: "flex", justifyContent: "end", }} className="  px-4 pt-2 text-white " >
-                    <img height={40} width={40} src={Homeimg} alt="" />
-                    
+                <div style={{ fontSize: "20px", display: "flex", justifyContent: "end", }} className="  px-4 pt-2 text-white " >
+                    {/* <img height={40} width={40} src={Homeimg} alt="" /> */}
+                    Home
+
                 </div>
             </Link>
 

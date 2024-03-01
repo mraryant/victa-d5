@@ -5,9 +5,7 @@ import Logo from "../../../assets/logo/logo.png"
 import { motion } from "framer-motion"
 import { Link } from "react-router-dom";
 
-const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-};
+
 
 const Navbar = () => {
 
@@ -74,10 +72,11 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <a className="nav-link" href="#tokenomics">Tokenomics</a>
                             </li>
-
                             <li className="nav-item">
-                                <Link to="/Blog/link1" onClick={scrollToTop} className="text-decoration-none  text-gray  ">Blogs</Link>
+                                <a className="nav-link" href="#blogs">Blog</a>
                             </li>
+
+
                         </ul>
                         <form className="d-flex ngflex">
 
